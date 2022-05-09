@@ -1,0 +1,26 @@
+
+.form{
+    margin: auto;
+    width: 30%;
+}
+.form div{
+    text-align: center;
+    /* display: flex;*/
+     display: grid;
+    grid-template-columns: 200px 200px ; 
+    align-items: center;
+    margin: 10px  ;
+    width: 100%;
+    gap:10px;
+}
+/* .form label { */
+    /* text-align: left; */
+    /* border: 1px solid pink; */
+    /* margin-right: 10px; */
+/* } */
+.form div input {
+    width: 200px;
+    padding: 5px;
+    /* border : 1px solid blue ; */
+    /* text-align: center; */
+}
